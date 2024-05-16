@@ -92,7 +92,7 @@ const CompCrearProveedores = () => {
             Crear usuario
           </button>
           <a
-            href="/usuarios"
+            href="/proveedores"
             className="btn btn-success gap-2 col-5 d-md-block btn-lg"
           >
             Cancelar
