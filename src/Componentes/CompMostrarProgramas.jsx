@@ -3,7 +3,8 @@ import axios from "axios";
 import { Link } from "react-router-dom";
 import { useState, useEffect } from "react";
 
-const URL = "http://localhost:5000/programacion/lenguajes/";
+// const URL = "http://localhost:5000/programacion/lenguajes/";
+const URL = "https://backend-formulario.onrender.com/programacion/lenguajes/";
 
 const CompMostrarProgramas = () => {
   const [lenguajes, setLenguajes] = useState([]);

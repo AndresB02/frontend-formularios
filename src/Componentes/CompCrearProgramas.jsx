@@ -2,7 +2,8 @@ import axios from "axios";
 import { useNavigate } from "react-router-dom";
 import { useState } from "react";
 
-const URL = "http://localhost:5000/programacion/lenguajes/";
+// const URL = "http://localhost:5000/programacion/lenguajes/";
+const URL = "https://backend-formulario.onrender.com/programacion/lenguajes/";
 
 const CompCrearProgramas = () => {
   const [nombre, setNombre] = useState("");

@@ -2,7 +2,8 @@ import axios from "axios";
 import { useNavigate, useParams } from "react-router-dom";
 import { useState, useEffect } from "react";
 
-const URL = "http://localhost:5000/programacion/proveedores/";
+// const URL = "http://localhost:5000/programacion/proveedores/";
+const URL = "https://backend-formulario.onrender.com/programacion/proveedores/";
 
 const CompEditarProveedor = () => {
   const [proveedor, setProveedor] = useState("");
