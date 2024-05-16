@@ -1,0 +1,41 @@
+#navbar {
+  gap: 590px;
+  padding: 20px;
+  margin-bottom: 50px;
+}
+#navbar a {
+  color: white;
+  font-size: 1.2rem;
+}
+#navbar a:hover {
+  text-decoration: underline;
+  font-size: 1.21rem;
+}
+.rea {
+  padding-left: 30px;
+}
+.footer ul {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  gap: 15px;
+}
+.footer ul a:hover {
+  text-decoration: underline;
+}
+/* #login img {
+  margin: 10px 0;
+}
+#login .center {
+  text-align: center;
+}
+
+#login .login {
+  max-width: 300px;
+  margin: 35px auto;
+}
+
+#login .login-form {
+  padding: 0px 25px;
+} */
